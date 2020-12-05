@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- The purpose of this tast is to create a web page that displays the text Hello World and  -->
+<!-- the time the web page was served in the form day-month-year hour:minute:second -->
+<html lang="en">
+<!-- HTML document that uses English -->
+    <head>
+	<!-- This section creates the description of the website -->
+        <meta charset="UTF-8">
+		<!-- UTF-8 character set is used on this page -->
+        <title>ServerBaby's Sample Webpage</title>
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    	<meta name="description" content="This is a sample webpage by ServerBaby, made with HTML5.">
+	<style>
+		.time {text-align:center; background-color: purple; color: white; border: 2px solid black; margin: 20px; padding: 20px;}
+		<!-- This section creates a style called .time that is used to display sections of the page -->
+	</style>
+    </head>
+    <body>
+	<!-- This section creates the main body of the website -->
+        <div class="time">
+			<h1 title="I'm a header">Hello World!</h1>
+			<!-- This section is a header displayed in the .time style and says Hello World -->
+		</div>
+        <hr>
+		<!-- HR is a dividing line across the page  -->
+		<p> </p> <!-- This is just a blank line -->
+        <p title="I give a time" id="Intro">This page was served to you on:</p>
+		<p id="Result"> XXXXXXXXXX </p>
+		<!-- This section, Result, is just a placeholder for the server time to be inserted-->
+		<!-- XXXXXXXXXX will be replaced with the time when the file is run -->
+		<p> </p> <!-- This is just a blank line -->
+		<p> </p> 
+		<hr>
+    </body>
+</html>
